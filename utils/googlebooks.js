@@ -9,7 +9,7 @@ module.exports = async (phrase) => {
     })
 
     // return JSON.stringify(results.data);
-    let customObject = {
+    let customBookObject = {
         data: results.data,
         status: results.status,
         statusText: results.statusText,
@@ -17,7 +17,7 @@ module.exports = async (phrase) => {
         requestHeader: results.config.headers
     }
 
-    return customObject;
+    return customBookObject;
 }
 
 /*  console.log(results.data);
